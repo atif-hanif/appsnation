@@ -45,59 +45,17 @@ body {
 	overflow-x: hidden;
 }
 
-article,
-
-aside,
-
-details,
-
-figcaption,
-
-figure,
-
-footer,
-
-header,
-
-nav,
-
-section,
-
-summary {
+article, aside, details, figcaption, figure, footer, header, nav, section, summary {
 	display: block;
 }
 
-h1,
-
-h2,
-
-h3,
-
-h4,
-
-h5,
-
-h6 {
+h1, h2, h3, h4, h5, h6 {
 	font-family: 'Poppins', sans-serif;
 	color: #050748;
 	font-weight: 600;
 }
 
-h1,
-
-h2,
-
-h3,
-
-h4,
-
-h5,
-
-h6,
-
-p,
-
-ul {
+h1, h2, h3, h4, h5, h6, p, ul {
 	padding: 0;
 	margin: 0;
 }
@@ -9737,8 +9695,12 @@ ul.order-list li {
 }
 
 .ar-img-block {
-    width: 15%;
+    width: 75px;
     display: inline-block;
+	background-color: #fff;
+	padding: 5px;
+	transform: rotate(45deg);
+    margin-top: 10px;
 }
 
 .ar-dev-block {
