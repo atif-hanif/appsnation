@@ -9736,18 +9736,10 @@ ul.order-list li {
 	padding: 0px;
 }
 
-/* .ar-img-block {
-	width: 50%;
+.ar-img-block {
+    width: 15%;
     display: inline-block;
-} */
-
-.ar-img-block img {
-    width: 50%;
 }
-
-/* .ar-img {
-    display: inline-block;
-} */
 
 .ar-dev-block {
 	width: 70%;
