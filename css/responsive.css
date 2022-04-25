@@ -1586,8 +1586,6 @@
 		margin-right: 15px;
 	}
 
-	/* home */
-
 	.dsk-logo .nav-brand img {
 		max-height: 50px;
 	}
@@ -1658,8 +1656,6 @@
 		text-align: center;
 	}
 
-	/* services */
-
 	.quote-form {
 		margin-top: 25px;
 	}
@@ -1698,6 +1694,17 @@
 
 	.ios-tech-tabs {
 		margin: 15px 0px;
+	}
+
+	.main-timeline .timeline,
+    .main-timeline .timeline:nth-child(even),
+	.main-timeline .timeline:nth-child(odd) {
+		width: 100%;
+		margin: 0 0 35px 0;
+	}
+
+	.intro-section {
+		background-image: none;
 	}
 
 }

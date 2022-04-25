@@ -9473,15 +9473,6 @@ input#name::placeholder, input#email::placeholder, input#mobile::placeholder, te
 	color: #0dacaf;
 }
 
-@media screen and (max-width:767px) {
-	.main-timeline .timeline,
-    .main-timeline .timeline:nth-child(even),
-	.main-timeline .timeline:nth-child(odd) {
-		width: 100%;
-		margin: 0 0 35px 0;
-	}
-}
-
 .why-block {
 	height: calc(100%);
 	display: block;
@@ -9721,4 +9712,44 @@ ul.order-list li {
 
 .industry-title {
 	text-align: center;
+}
+
+/* AR Page */
+
+.intro-section {
+	background: url(../images/service/game-banner.png) no-repeat;
+    background-size: cover;
+	background-position: center bottom;
+	height: 1080px;
+}
+
+.choose-us-section {
+	background: url(../images/service/game_team_bg.jpg) no-repeat;
+    background-size: cover;
+	/* height: 1080px; */
+}
+
+.ar-app-block {
+    height: 100%;
+	background: transparent;
+	border: 1px solid transparent;
+	padding: 0px;
+}
+
+/* .ar-img-block {
+	width: 50%;
+    display: inline-block;
+} */
+
+.ar-img-block img {
+    width: 50%;
+}
+
+/* .ar-img {
+    display: inline-block;
+} */
+
+.ar-dev-block {
+	width: 70%;
+    float: right;
 }
