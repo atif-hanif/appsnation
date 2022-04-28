@@ -9674,20 +9674,20 @@ ul.order-list li {
 
 /* AR Page */
 
-.intro-section {
+.ar-intro-section {
 	background: url(../images/service/game-banner.png) no-repeat;
     background-size: cover;
 	background-position: center bottom;
 	height: 1080px;
 }
 
-.choose-us-section {
+.ar-choose-section {
 	background: url(../images/service/game_team_bg.jpg) no-repeat;
     background-size: cover;
 	/* height: 1080px; */
 }
 
-.games-section {
+.ar-game-section {
 	background: url(../images/service/game_service_bg.jpg) no-repeat;
     background-size: cover;
     background-position: left;
@@ -9714,10 +9714,66 @@ ul.order-list li {
     float: right;
 }
 
-.our-process-section {
+.ar-process-section {
 	background: url(../images/service/dedicate_game_team.jpg) no-repeat;
     background-size: cover;
 }
+
+/* VR Page */
+
+.vr-intro-section {
+	background: url(../images/service/game-banner.png) no-repeat;
+    background-size: cover;
+	background-position: center bottom;
+	height: 1080px;
+}
+
+.vr-choose-section {
+	background: url(../images/service/game_team_bg.jpg) no-repeat;
+    background-size: cover;
+	/* height: 1080px; */
+}
+
+.vr-game-section {
+	background: url(../images/service/game_service_bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: left;
+}
+
+.vr-process-section {
+	background: url(../images/service/dedicate_game_team.jpg) no-repeat;
+    background-size: cover;
+}
+
+/* Game Page */
+
+.game-intro-section {
+	background: url(../images/service/games-banner.png) no-repeat;
+    background-size: cover;
+}
+
+.game-choose-section {
+	background: url(../images/service/games_team_bg.jpg) no-repeat;
+    background-size: cover;
+}
+
+.game-img-div {
+	transform: translate(-120px,00px);
+}
+
+.game-process-section {
+	background: url(../images/service/dedicate_games_team.jpg) no-repeat;
+    background-size: cover;
+}
+
+.game-section {
+	background: url(../images/service/game_service_bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: left;
+}
+
+
+/* Timeline */
 
 .vertical-timeline {
     width: 100%;
@@ -9978,4 +10034,14 @@ ul.service_box:nth-child(even) li:nth-child(n) {
 
 .game-img {
 	transform: translate(-100px, 48px);
+}
+
+.game-choose-section .timeline-centered:before {
+	height: 500px;
+}
+
+.flup-theme-quote {
+	color: #089674;
+	font-size: 32px;
+	position: relative;
 }

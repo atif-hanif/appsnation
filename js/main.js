@@ -503,6 +503,42 @@ File Description: Main JS file of the template*/
     }
   });
 
+  $('.game-service-slider').owlCarousel({
+    items: 4,
+    loop: true,
+    autoplay: true,
+    centre: true,
+    margin: 10,
+    nav: true,
+    dots: false,
+    navText : ["<i class='fas fa-arrow-left'></i>","<i class='fas fa-arrow-right'></i>"],
+    autoplayTimeout: 4000,
+    autoplayHoverPause: true,
+    smartSpeed: 2000,
+    responsiveClass: true,
+    rewind: true,
+    responsive: {
+      0: {
+        items: 3
+      },
+      520: {
+        items: 3
+      },
+      768: {
+        items: 3
+      },
+      1200: {
+        items: 4
+      },
+      1400: {
+        items: 4
+      },
+      1600: {
+        items: 4
+      },
+    }
+  });
+
   //Counter Up	
   $(".counter").counterUp({
     delay: 10,
