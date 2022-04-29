@@ -9774,11 +9774,6 @@ ul.order-list li {
 
 .game-service-item .card-body {
 	height: 430px;
-	background: linear-gradient(to right, #0dacaf 0%, #089674 100%);
-}
-
-.game-service-item h5, .game-service-item p {
-	color: #fff;
 }
 
 .game-service-slider .owl-nav {
