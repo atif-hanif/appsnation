@@ -9772,6 +9772,32 @@ ul.order-list li {
     background-position: left;
 }
 
+.game-service-item .card-body {
+	height: 430px;
+	background: linear-gradient(to right, #0dacaf 0%, #089674 100%);
+}
+
+.game-service-item h5, .game-service-item p {
+	color: #fff;
+}
+
+.game-service-slider .owl-nav {
+	margin-top: 50px;
+	display: flex;
+	justify-content: center;
+}
+
+.game-service-slider .owl-prev {
+	font-size: 20px !important;
+	color: #089674 !important;
+	margin-right: 30px;
+}
+
+.game-service-slider .owl-next {
+	font-size: 20px !important;
+	color: #089674 !important;
+	margin-right: 30px;
+}
 
 /* Timeline */
 
