@@ -64,6 +64,10 @@ a {
 	color: #0dacaf;
 }
 
+a:hover {
+	color: #0dacaf;
+}
+
 ul {
 	list-style: disc;
 }
@@ -2353,7 +2357,7 @@ footer.ftshap:before {
 }
 
 .link-hover a {
-	color: #6a6a8e;
+	color: #000;
 	font-family: 'Poppins', sans-serif;
 	display: inline-block;
 	padding: 3px 0;
@@ -5217,7 +5221,7 @@ h3 a {
 .service-card-app {
 	display: block;
 	background: #fff;
-	box-shadow: 0 11px 20px rgb(123 149 162 / 15%);
+	box-shadow: 0 11px 20px rgb(123 149 162 / 50%);
 	font-weight: 400;
 	font-size: 14px;
 	padding: 30px;
@@ -10065,4 +10069,13 @@ ul.service_box:nth-child(even) li:nth-child(n) {
 	color: #089674;
 	font-size: 32px;
 	position: relative;
+}
+
+.cnt-btn {
+    color: #089674;
+    background: #fff;
+}
+
+.cnt-btn:hover {
+    border: 1px solid #fff;
 }
